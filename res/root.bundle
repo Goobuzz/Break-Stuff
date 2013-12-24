@@ -1,0 +1,1108 @@
+{
+    "entities/Box.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": null,
+                "shape": "Box"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material.material"
+                ],
+                "receiveShadows": true
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    13.099759101867676,
+                    2
+                ],
+                "translation": [
+                    -6.692086696624756,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Box",
+        "ref": "entities/Box.entity"
+    },
+    "entities/Box_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": null,
+                "shape": "Box"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material.material"
+                ],
+                "receiveShadows": true
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    13.099759101867676,
+                    2
+                ],
+                "translation": [
+                    6.69,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Box",
+        "ref": "entities/Box_0.entity"
+    },
+    "entities/Box_1.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": null,
+                "shape": "Box"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material.material"
+                ],
+                "receiveShadows": true
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    90
+                ],
+                "scale": [
+                    1,
+                    12.42,
+                    2
+                ],
+                "translation": [
+                    3.8684412923621603e-16,
+                    6.05078125,
+                    0
+                ]
+            }
+        },
+        "name": "Box",
+        "ref": "entities/Box_1.entity"
+    },
+    "entities/Box_2.entity": {
+        "components": {
+            "meshData": {
+                "shape": "Box"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material_4.material"
+                ],
+                "receiveShadows": true
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    0.5,
+                    0.5
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Brick",
+        "ref": "entities/Box_2.entity"
+    },
+    "entities/Camera.entity": {
+        "components": {
+            "camera": {
+                "aspect": 1,
+                "far": 20,
+                "fov": 45,
+                "lockedRatio": false,
+                "near": 1,
+                "projectionMode": 0,
+                "size": 100
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    0,
+                    16.56
+                ]
+            }
+        },
+        "name": "View Cam",
+        "ref": "entities/Camera.entity"
+    },
+    "entities/PointLight.entity": {
+        "components": {
+            "light": {
+                "attenuate": true,
+                "color": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "direction": [
+                    0,
+                    0,
+                    0
+                ],
+                "intensity": 5,
+                "lightCookie": null,
+                "range": 15,
+                "shadowCaster": false,
+                "shadowSettings": {
+                    "darkness": 0,
+                    "far": 15,
+                    "fov": 55,
+                    "near": 1,
+                    "projection": "Perspective",
+                    "resolution": [
+                        256,
+                        256
+                    ],
+                    "shadowType": "VSM",
+                    "size": 400,
+                    "type": "Blur",
+                    "upVector": [
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                "specularIntensity": 0.5,
+                "type": "PointLight"
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    -1,
+                    11
+                ]
+            }
+        },
+        "name": "PointLight",
+        "ref": "entities/PointLight.entity"
+    },
+    "entities/Quad.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": null,
+                "shape": "Quad"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material_0.material"
+                ],
+                "receiveShadows": true
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    12.432977676391602,
+                    12.263463973999023,
+                    1
+                ],
+                "translation": [
+                    0,
+                    -0.48408448696136475,
+                    -0.9251003265380859
+                ]
+            }
+        },
+        "name": "Quad",
+        "ref": "entities/Quad.entity"
+    },
+    "entities/Quad_0.entity": {
+        "components": {
+            "meshData": {
+                "shape": "Quad"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material_2.material"
+                ],
+                "receiveShadows": true
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    12.548761367797852,
+                    0.28455090522766113,
+                    1
+                ],
+                "translation": [
+                    0,
+                    -5,
+                    -0.8795919418334961
+                ]
+            }
+        },
+        "name": "Quad_0",
+        "ref": "entities/Quad_0.entity"
+    },
+    "entities/Quad_1.entity": {
+        "components": {
+            "meshData": {
+                "shape": "Quad"
+            },
+            "meshRenderer": {
+                "castShadows": false,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material_3.material"
+                ],
+                "receiveShadows": false
+            },
+            "transform": {
+                "parentRef": "entities/Sphere.entity",
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    2.5,
+                    2.5,
+                    2.5
+                ],
+                "translation": [
+                    0,
+                    0,
+                    -3.4854676723480225
+                ]
+            }
+        },
+        "name": "Shadow",
+        "ref": "entities/Quad_1.entity"
+    },
+    "entities/Sphere.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": null,
+                "shape": "Sphere",
+                "shapeOptions": {
+                    "radialSamples": 16,
+                    "textureMode": "Projected",
+                    "zSamples": 16
+                }
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "materials/Material_1.material"
+                ],
+                "receiveShadows": true
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.25,
+                    0.25,
+                    0.25
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Ball",
+        "ref": "entities/Sphere.entity"
+    },
+    "materials/Material.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Blank",
+        "ref": "materials/Material.material",
+        "renderQueue": 1000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "AO_MAP": null,
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "textures/white-brick-wall-texture-426194-m.texture"
+            }
+        },
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0.8545454545454545,
+                    0.8545454545454545,
+                    0.8545454545454545,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0.3727272727272727,
+                    0.3727272727272727,
+                    0.3727272727272727,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 0
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "materials/Material_0.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Blank",
+        "ref": "materials/Material_0.material",
+        "renderQueue": 1000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "textures/floor.texture"
+            }
+        },
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0.6,
+                    0.5321256198347106,
+                    0.28363636363636363,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0.4636363636363636,
+                    0.4636363636363636,
+                    0.4636363636363636,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 50
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "materials/Material_1.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Blank",
+        "ref": "materials/Material_1.material",
+        "renderQueue": 1000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {},
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0.10196078431372549,
+                    0.1450980392156863,
+                    0.34509803921568627,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0.18223140495867768,
+                    0.2416469893742621,
+                    0.40909090909090906,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0.34901960784313724,
+                    0.40784313725490196,
+                    0.5803921568627451,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 1
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "materials/Material_2.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Blank",
+        "ref": "materials/Material_2.material",
+        "renderQueue": 1000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {},
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0.6,
+                    0.6,
+                    0.6,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 64
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "materials/Material_3.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "CustomBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Blank",
+        "ref": "materials/Material_3.material",
+        "renderQueue": 2000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "textures/shadow.texture"
+            }
+        },
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 64
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 0.5
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "materials/Material_4.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Blank",
+        "ref": "materials/Material_4.material",
+        "renderQueue": 1000,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "textures/brick.texture"
+            }
+        },
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0.4818181818181818,
+                    0.4818181818181818,
+                    0.4818181818181818,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0.3909090909090909,
+                    0.3909090909090909,
+                    0.3909090909090909,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0.2272727272727273,
+                    0.2272727272727273,
+                    0.2272727272727273,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 64
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "project.project": {
+        "backgroundColor": [
+            0.1,
+            0.1,
+            0.1,
+            1
+        ],
+        "created": "2013-12-16T23:07:53.404176",
+        "deleted": false,
+        "edit": [],
+        "entityRefs": [
+            "entities/Box.entity",
+            "entities/Camera.entity",
+            "entities/Box_0.entity",
+            "entities/Box_1.entity",
+            "entities/PointLight.entity",
+            "entities/Quad.entity",
+            "entities/Sphere.entity",
+            "entities/Quad_0.entity",
+            "entities/Quad_1.entity",
+            "entities/Box_2.entity"
+        ],
+        "fogColor": [
+            1,
+            1,
+            1
+        ],
+        "fogFar": 1000,
+        "fogNear": 0,
+        "globalAmbient": [
+            0,
+            0,
+            0
+        ],
+        "groupRefs": [
+            "root.group"
+        ],
+        "id": "Fi3OAJ-IRlufsElYzm6MiQ",
+        "licenseType": "CC0",
+        "modified": "2013-12-20T08:18:20.348383",
+        "name": "Break Stuff",
+        "originalLicenseType": null,
+        "own": [
+            "h9AeW1X3S1WZYADWuViCyw"
+        ],
+        "parent": null,
+        "public": true,
+        "publishedURL": "http://goote.ch/Fi3OAJ-IRlufsElYzm6MiQ",
+        "ref": "project.project",
+        "skybox": {
+            "environmentType": 1,
+            "imageUrls": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "rotation": 0,
+            "shape": "Box"
+        },
+        "useFog": false,
+        "view": []
+    },
+    "root.group": {
+        "libraryRefs": [
+            "entities/Box.entity",
+            "entities/Camera.entity",
+            "materials/Material.material",
+            "images/white-brick-wall-texture-426194-m.jpg",
+            "textures/white-brick-wall-texture-426194-m.texture",
+            "textures/white-brick-wall-texture-426194-m_0.texture",
+            "entities/Box_0.entity",
+            "entities/Box_1.entity",
+            "entities/PointLight.entity",
+            "entities/Quad.entity",
+            "materials/Material_0.material",
+            "images/floor.png",
+            "textures/floor.texture",
+            "entities/Sphere.entity",
+            "materials/Material_1.material",
+            "entities/Quad_0.entity",
+            "materials/Material_2.material",
+            "entities/Quad_1.entity",
+            "materials/Material_3.material",
+            "images/shadow.png",
+            "textures/shadow.texture",
+            "entities/Box_2.entity",
+            "materials/Material_4.material",
+            "images/brick.png",
+            "textures/brick.texture"
+        ],
+        "name": "root",
+        "ref": "root.group"
+    },
+    "textures/brick.texture": {
+        "anisotropy": 1,
+        "fileName": "brick.png",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "Trilinear",
+        "name": "brick",
+        "offset": [
+            0,
+            0
+        ],
+        "ref": "textures/brick.texture",
+        "repeat": [
+            1,
+            1
+        ],
+        "url": "images/brick.png",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    },
+    "textures/floor.texture": {
+        "anisotropy": 1,
+        "fileName": "floor.png",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "BilinearNoMipMaps",
+        "name": "floor",
+        "offset": [
+            0,
+            0
+        ],
+        "ref": "textures/floor.texture",
+        "repeat": [
+            2,
+            2
+        ],
+        "url": "images/floor.png",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    },
+    "textures/shadow.texture": {
+        "anisotropy": 1,
+        "fileName": "shadow.png",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "Trilinear",
+        "name": "shadow",
+        "offset": [
+            0,
+            0
+        ],
+        "ref": "textures/shadow.texture",
+        "repeat": [
+            1,
+            1
+        ],
+        "url": "images/shadow.png",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    },
+    "textures/white-brick-wall-texture-426194-m.texture": {
+        "anisotropy": 1,
+        "fileName": "white-brick-wall-texture-426194-m.jpg",
+        "flipY": true,
+        "magFilter": "NearestNeighbor",
+        "minFilter": "BilinearNoMipMaps",
+        "name": "white-brick-wall-texture-426194-m",
+        "offset": [
+            0,
+            0.9
+        ],
+        "ref": "textures/white-brick-wall-texture-426194-m.texture",
+        "repeat": [
+            0.5,
+            3
+        ],
+        "url": "images/white-brick-wall-texture-426194-m.jpg",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    },
+    "textures/white-brick-wall-texture-426194-m_0.texture": {
+        "anisotropy": 1,
+        "fileName": "white-brick-wall-texture-426194-m.jpg",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "Trilinear",
+        "name": "white-brick-wall-texture-426194-m",
+        "offset": [
+            0,
+            0
+        ],
+        "ref": "textures/white-brick-wall-texture-426194-m_0.texture",
+        "repeat": [
+            1,
+            1
+        ],
+        "url": "images/white-brick-wall-texture-426194-m.jpg",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    }
+}
